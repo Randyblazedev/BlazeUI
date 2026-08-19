@@ -1,0 +1,1753 @@
+<!DOCTYPE html>
+<html lang="en" class="overflow-x-hidden">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="google-site-verification" content="79akMtoeurWqTLJu-1355qBxIJe6fupxUwqqjpjYnv4" />
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+  <link rel="icon" type="image/png" href="template.png" />
+<title>Blaze Templates</title>
+</head>
+  <body class="bg-[#0B0F19] text-white overflow-x-hidden">
+
+<header class="sticky top-0 z-50 border-b border-white/5 bg-[#0B0F19]/80 backdrop-blur-xl">
+  <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
+    <h1 class="text-2xl font-black bg-gradient-to-r from-emerald-400 to-blue-500 bg-clip-text text-transparent">
+      BlazeUI
+    </h1>
+    <a
+        href="index.html#templates"
+        class="px-4 py-2 rounded-lg text-sm font-medium text-gray-400 bg-white/10 hover:text-white hover:bg-white/[0.06] transition"
+      >
+        Templates
+      </a>
+
+      <a
+        href="font.html"
+        class="px-4 py-2 rounded-lg  text-white text-sm font-semibold"
+      >
+        Fonts
+      </a>
+  </div>
+</header>
+
+<section class="max-w-6xl mx-auto px-4 py-10">
+  <span class="px-3 py-1 rounded-full bg-emerald-500/10 text-emerald-400 text-xs font-bold">
+    FREE HTML • TAILWIND
+  </span>
+
+  <h2 class="text-5xl font-black mt-6 leading-tight">
+    Copy.
+    <span class="bg-gradient-to-r from-emerald-400 to-blue-500 bg-clip-text text-transparent">
+      Build.
+    </span>
+    Ship.
+  </h2>
+
+  <p class="text-slate-400 mt-4 max-w-xl">
+    Premium reusable UI components with hidden source code and one-click copy.
+  </p>
+</section>
+
+<section class="max-w-6xl mx-auto px-4 pb-16">
+  <h3 class="text-xl font-bold mb-4">Product Cards</h3>
+
+  <!-- LIVE CARD -->
+  <div data-aos="fade-up" class="max-w-sm rounded-3xl overflow-hidden bg-[#131B2E] border border-white/10 shadow-2xl group">
+    <div class="relative h-64 overflow-hidden">
+      <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=800" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+      <span class="absolute top-4 left-4 bg-orange-500 text-xs px-3 py-1 rounded-full font-bold">
+        NEW
+      </span>
+    </div>
+
+    <div class="p-6">
+      <p class="text-orange-400 text-xs uppercase font-bold">Sneakers</p>
+
+      <h3 class="text-2xl font-black mt-1">Blaze Runner X</h3>
+
+      <div class="flex items-center justify-between mt-6">
+        <div>
+          <span class="text-3xl font-black">$89</span>
+          <span class="text-slate-500 line-through ml-2">$129</span>
+        </div>
+
+        <button class="px-4 py-2 rounded-xl bg-gradient-to-r from-orange-500 to-amber-400 text-sm font-bold">
+          Buy
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- SOURCE -->
+  <textarea id="src-product-1" class="hidden"><div class="max-w-sm rounded-3xl overflow-hidden bg-[#131B2E] border border-white/10 shadow-2xl group">
+    <div class="relative h-64 overflow-hidden">
+      <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=800" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+      <span class="absolute top-4 left-4 bg-orange-500 text-xs px-3 py-1 rounded-full font-bold">
+        NEW
+      </span>
+    </div>
+
+    <div class="p-6">
+      <p class="text-orange-400 text-xs uppercase font-bold">Sneakers</p>
+
+      <h3 class="text-2xl font-black mt-1">Blaze Runner X</h3>
+
+      <div class="flex items-center justify-between mt-6">
+        <div>
+          <span class="text-3xl font-black">$89</span>
+          <span class="text-slate-500 line-through ml-2">$129</span>
+        </div>
+
+        <button class="px-4 py-2 rounded-xl bg-gradient-to-r from-orange-500 to-amber-400 text-sm font-bold">
+          Buy
+        </button>
+      </div>
+    </div>
+  </div></textarea>
+
+  <!-- COPY -->
+  <button onclick="navigator.clipboard.writeText(document.getElementById('src-product-1').value);alert('Copied!')" class="mt-4 px-5 py-3 rounded-xl bg-gradient-to-r from-orange-500 to-amber-400 text-sm font-bold">
+    📋 Copy Code
+  </button>
+</section>
+    <section class="max-w-6xl mx-auto px-4 pb-16 space-y-14">
+
+  <!-- ================= PRICING ================= -->
+  <div>
+    <h3 class="text-xl font-bold mb-4">Pricing Card</h3>
+
+    <div data-aos="fade-up" class="max-w-sm bg-[#131B2E] border border-emerald-500/20 rounded-3xl p-6 relative overflow-hidden">
+      <div class="absolute top-0 right-0 w-28 h-28 bg-emerald-500/10 blur-3xl rounded-full"></div>
+
+      <span class="inline-block px-3 py-1 rounded-full bg-emerald-500 text-black text-[11px] font-black">
+        MOST POPULAR
+      </span>
+
+      <h4 class="text-2xl font-black mt-5 text-white">Pro</h4>
+      <p class="text-slate-400 text-sm mt-1">Perfect for developers & creators.</p>
+
+      <div class="mt-6">
+        <span class="text-5xl font-black text-white">$29</span>
+        <span class="text-slate-400">/month</span>
+      </div>
+
+      <div class="mt-6 space-y-3 text-sm">
+        <div class="flex items-center gap-2 text-slate-300">✓ Unlimited Components</div>
+        <div class="flex items-center gap-2 text-slate-300">✓ Copy & Paste</div>
+        <div class="flex items-center gap-2 text-slate-300">✓ Lifetime Updates</div>
+      </div>
+
+      <button class="w-full mt-6 py-3 rounded-xl bg-gradient-to-r from-emerald-400 to-cyan-400 text-black font-bold">
+        Upgrade
+      </button>
+    </div>
+
+    <textarea id="src-pricing-pro" class="hidden"><div class="max-w-sm bg-[#131B2E] border border-emerald-500/20 rounded-3xl p-6 relative overflow-hidden">
+      <div class="absolute top-0 right-0 w-28 h-28 bg-emerald-500/10 blur-3xl rounded-full"></div>
+
+      <span class="inline-block px-3 py-1 rounded-full bg-emerald-500 text-black text-[11px] font-black">
+        MOST POPULAR
+      </span>
+
+      <h4 class="text-2xl font-black mt-5 text-white">Pro</h4>
+      <p class="text-slate-400 text-sm mt-1">Perfect for developers & creators.</p>
+
+      <div class="mt-6">
+        <span class="text-5xl font-black text-white">$29</span>
+        <span class="text-slate-400">/month</span>
+      </div>
+
+      <div class="mt-6 space-y-3 text-sm">
+        <div class="flex items-center gap-2 text-slate-300">✓ Unlimited Components</div>
+        <div class="flex items-center gap-2 text-slate-300">✓ Copy & Paste</div>
+        <div class="flex items-center gap-2 text-slate-300">✓ Lifetime Updates</div>
+      </div>
+
+      <button class="w-full mt-6 py-3 rounded-xl bg-gradient-to-r from-emerald-400 to-cyan-400 text-black font-bold">
+        Upgrade
+      </button>
+    </div></textarea>
+
+    <button onclick="navigator.clipboard.writeText(document.getElementById('src-pricing-pro').value); alert('Pricing Card Copied!');" class="mt-4 px-5 py-3 rounded-xl bg-gradient-to-r from-emerald-500 to-cyan-500 text-white text-sm font-bold">
+      📋 Copy Code
+    </button>
+  </div>
+
+  <!-- ================= LOGIN ================= -->
+  <div>
+    <h3 class="text-xl font-bold mb-4">Glass Login Form</h3>
+
+    <div data-aos="fade-up" class="max-w-md bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl p-7">
+      <div class="mb-6">
+        <h4 class="text-2xl font-black">Welcome Back</h4>
+        <p class="text-slate-400 text-sm mt-1">Sign in to continue building.</p>
+      </div>
+
+      <div class="space-y-4">
+        <input type="email" placeholder="Email address" class="w-full bg-[#0B0F19] border border-white/10 rounded-xl px-4 py-3 outline-none focus:border-emerald-400">
+
+        <input type="password" placeholder="Password" class="w-full bg-[#0B0F19] border border-white/10 rounded-xl px-4 py-3 outline-none focus:border-emerald-400">
+
+        <button class="w-full py-3 rounded-xl bg-gradient-to-r from-emerald-400 to-blue-500 text-black font-black">
+          Sign In
+        </button>
+      </div>
+    </div>
+
+    <textarea id="src-login-glass" class="hidden"><div class="max-w-md bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl p-7">
+      <div class="mb-6">
+        <h4 class="text-2xl font-black">Welcome Back</h4>
+        <p class="text-slate-400 text-sm mt-1">Sign in to continue building.</p>
+      </div>
+
+      <div class="space-y-4">
+        <input type="email" placeholder="Email address" class="w-full bg-[#0B0F19] border border-white/10 rounded-xl px-4 py-3 outline-none focus:border-emerald-400">
+
+        <input type="password" placeholder="Password" class="w-full bg-[#0B0F19] border border-white/10 rounded-xl px-4 py-3 outline-none focus:border-emerald-400">
+
+        <button class="w-full py-3 rounded-xl bg-gradient-to-r from-emerald-400 to-blue-500 text-black font-black">
+          Sign In
+        </button>
+      </div>
+    </div></textarea>
+
+    <button onclick="navigator.clipboard.writeText(document.getElementById('src-login-glass').value); alert('Login Form Copied!');" class="mt-4 px-5 py-3 rounded-xl bg-gradient-to-r from-emerald-500 to-blue-500 text-white text-sm font-bold">
+      📋 Copy Code
+    </button>
+  </div>
+<div class="ad-card bg-white/5 border border-white/10 rounded-xl p-4">
+  <span class="text-xs text-gray-500">Sponsored</span>
+  <!-- Your ad content here -->
+  <script async="async" data-cfasync="false" src="https://pl30930495.effectivecpmnetwork.com/f0fce54c1bebadc4d198b1c7ec83f31a/invoke.js"></script>
+<div id="container-f0fce54c1bebadc4d198b1c7ec83f31a"></div>
+
+</div>
+  <!-- ================= TESTIMONIAL ================= -->
+  <div>
+    <h3 class="text-xl font-bold mb-4">Testimonial</h3>
+
+    <div data-aos="fade-up" class="max-w-md bg-[#131B2E] border border-white/10 rounded-3xl p-6 relative">
+      <div class="absolute top-5 right-5 text-4xl text-white/10 font-serif">❝</div>
+
+      <div class="flex items-center gap-3">
+        <div class="w-12 h-12 rounded-full bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center font-black">
+          RB
+        </div>
+
+        <div>
+          <h4 class="font-bold">Randy Blaze</h4>
+          <p class="text-xs text-slate-400">Frontend Developer</p>
+        </div>
+      </div>
+
+      <p class="text-slate-300 leading-relaxed mt-5">
+        BlazeUI feels like a premium component library. Everything is reusable, clean and production ready.
+      </p>
+
+      <div class="flex gap-1 mt-5 text-yellow-400">
+        ★★★★★
+      </div>
+    </div>
+
+    <textarea id="src-testimonial-modern" class="hidden"><div class="max-w-md bg-[#131B2E] border border-white/10 rounded-3xl p-6 relative">
+      <div class="absolute top-5 right-5 text-4xl text-white/10 font-serif">❝</div>
+
+      <div class="flex items-center gap-3">
+        <div class="w-12 h-12 rounded-full bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center font-black">
+          RB
+        </div>
+
+        <div>
+          <h4 class="font-bold">Randy Blaze</h4>
+          <p class="text-xs text-slate-400">Frontend Developer</p>
+        </div>
+      </div>
+
+      <p class="text-slate-300 leading-relaxed mt-5">
+        BlazeUI feels like a premium component library. Everything is reusable, clean and production ready.
+      </p>
+
+      <div class="flex gap-1 mt-5 text-yellow-400">
+        ★★★★★
+      </div>
+    </div></textarea>
+
+    <button onclick="navigator.clipboard.writeText(document.getElementById('src-testimonial-modern').value); alert('Testimonial Copied!');" class="mt-4 px-5 py-3 rounded-xl bg-gradient-to-r from-purple-500 to-pink-500 text-white text-sm font-bold">
+      📋 Copy Code
+    </button>
+  </div>
+
+</section>
+    <section class="max-w-6xl mx-auto px-4 pb-16 space-y-14">
+
+  <!-- ===== ANALYTICS CARD ===== -->
+  <div>
+    <h3 class="text-xl font-bold mb-4 text-white">Analytics Card</h3>
+
+    <div data-aos="fade-up" class="max-w-xs bg-[#101726] rounded-3xl border border-white/10 p-5 relative overflow-hidden">
+      <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-orange-500 to-amber-300"></div>
+
+      <p class="text-[10px] uppercase tracking-widest text-slate-500 font-bold">Revenue Growth</p>
+
+      <div class="mt-3 flex items-end gap-2">
+        <h2 class="text-4xl font-black text-white">$84K</h2>
+        <span class="text-emerald-400 font-bold">+18%</span>
+      </div>
+
+      <div class="mt-6 flex gap-1 h-14 items-end">
+        <div class="w-4 h-6 rounded bg-orange-500/30"></div>
+        <div class="w-4 h-8 rounded bg-orange-500/50"></div>
+        <div class="w-4 h-10 rounded bg-orange-500/70"></div>
+        <div class="w-4 h-12 rounded bg-orange-400"></div>
+        <div class="w-4 h-14 rounded bg-amber-300"></div>
+      </div>
+
+      <p class="text-xs text-slate-500 mt-4">Updated 2 mins ago</p>
+    </div>
+
+    <textarea id="src-analytics-card" class="hidden"><div class="max-w-xs bg-[#101726] rounded-3xl border border-white/10 p-5 relative overflow-hidden">
+      <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-orange-500 to-amber-300"></div>
+
+      <p class="text-[10px] uppercase tracking-widest text-slate-500 font-bold">Revenue Growth</p>
+
+      <div class="mt-3 flex items-end gap-2">
+        <h2 class="text-4xl font-black text-white">$84K</h2>
+        <span class="text-emerald-400 font-bold">+18%</span>
+      </div>
+
+      <div class="mt-6 flex gap-1 h-14 items-end">
+        <div class="w-4 h-6 rounded bg-orange-500/30"></div>
+        <div class="w-4 h-8 rounded bg-orange-500/50"></div>
+        <div class="w-4 h-10 rounded bg-orange-500/70"></div>
+        <div class="w-4 h-12 rounded bg-orange-400"></div>
+        <div class="w-4 h-14 rounded bg-amber-300"></div>
+      </div>
+
+      <p class="text-xs text-slate-500 mt-4">Updated 2 mins ago</p>
+    </div></textarea>
+
+    <button onclick="navigator.clipboard.writeText(document.getElementById('src-analytics-card').value);alert('Analytics Card Copied!')" class="mt-4 px-5 py-3 rounded-xl bg-gradient-to-r from-orange-500 to-amber-400 text-white text-sm font-bold">
+      📋 Copy Code
+    </button>
+  </div>
+
+  <!-- ===== PROFILE CARD ===== -->
+  <div>
+    <h3 class="text-xl font-bold mb-4 text-white">Profile Card</h3>
+
+    <div data-aos="fade-up" class="max-w-xs bg-[#131B2E] rounded-3xl border border-white/10 p-6 text-center">
+      <div class="w-20 h-20 mx-auto rounded-full bg-gradient-to-br from-emerald-400 to-blue-500 flex items-center justify-center text-2xl font-black text-black">
+        RB
+      </div>
+
+      <h4 class="text-xl font-black text-white mt-4">Randy Blaze</h4>
+      <p class="text-slate-400 text-sm">Frontend Developer</p>
+
+      <div class="grid grid-cols-3 gap-3 mt-6 text-center">
+        <div>
+          <p class="font-black text-white">24</p>
+          <span class="text-[10px] text-slate-500">Projects</span>
+        </div>
+        <div>
+          <p class="font-black text-white">12K</p>
+          <span class="text-[10px] text-slate-500">Followers</span>
+        </div>
+        <div>
+          <p class="font-black text-white">4.9</p>
+          <span class="text-[10px] text-slate-500">Rating</span>
+        </div>
+      </div>
+
+      <button class="w-full mt-6 py-3 rounded-xl bg-white/10 text-white font-bold hover:bg-white/20">
+        Follow
+      </button>
+    </div>
+
+    <textarea id="src-profile-card" class="hidden"><div class="max-w-xs bg-[#131B2E] rounded-3xl border border-white/10 p-6 text-center">
+      <div class="w-20 h-20 mx-auto rounded-full bg-gradient-to-br from-emerald-400 to-blue-500 flex items-center justify-center text-2xl font-black text-black">
+        RB
+      </div>
+
+      <h4 class="text-xl font-black text-white mt-4">Randy Blaze</h4>
+      <p class="text-slate-400 text-sm">Frontend Developer</p>
+
+      <div class="grid grid-cols-3 gap-3 mt-6 text-center">
+        <div>
+          <p class="font-black text-white">24</p>
+          <span class="text-[10px] text-slate-500">Projects</span>
+        </div>
+        <div>
+          <p class="font-black text-white">12K</p>
+          <span class="text-[10px] text-slate-500">Followers</span>
+        </div>
+        <div>
+          <p class="font-black text-white">4.9</p>
+          <span class="text-[10px] text-slate-500">Rating</span>
+        </div>
+      </div>
+
+      <button class="w-full mt-6 py-3 rounded-xl bg-white/10 text-white font-bold hover:bg-white/20">
+        Follow
+      </button>
+    </div></textarea>
+
+    <button onclick="navigator.clipboard.writeText(document.getElementById('src-profile-card').value);alert('Profile Card Copied!')" class="mt-4 px-5 py-3 rounded-xl bg-gradient-to-r from-emerald-500 to-blue-500 text-white text-sm font-bold">
+      📋 Copy Code
+    </button>
+  </div>
+<div class="ad-card bg-white/5 border border-white/10 rounded-xl p-4">
+  <span class="text-xs text-gray-500">Sponsored</span>
+  <!-- Your ad content here -->
+  <script async="async" data-cfasync="false" src="https://pl30930495.effectivecpmnetwork.com/f0fce54c1bebadc4d198b1c7ec83f31a/invoke.js"></script>
+<div id="container-f0fce54c1bebadc4d198b1c7ec83f31a"></div>
+
+</div>
+  <!-- ===== TODO CARD ===== -->
+  <div>
+    <h3 class="text-xl font-bold mb-4 text-white">Todo Card</h3>
+
+    <div data-aos="fade-up" class="max-w-sm bg-[#131B2E] rounded-3xl border border-white/10 p-5">
+      <div class="flex items-center justify-between mb-4">
+        <h4 class="font-black text-white">Today's Tasks</h4>
+        <span class="text-xs px-2 py-1 rounded-full bg-emerald-500/10 text-emerald-400">
+          3 Left
+        </span>
+      </div>
+
+      <div class="space-y-3">
+        <label class="flex items-center gap-3 bg-white/5 rounded-xl p-3">
+          <input type="checkbox" checked>
+          <span class="text-slate-500 line-through">Design Hero</span>
+        </label>
+
+        <label class="flex items-center gap-3 bg-white/5 rounded-xl p-3">
+          <input type="checkbox">
+          <span class="text-white">Finish Dashboard</span>
+        </label>
+
+        <label class="flex items-center gap-3 bg-white/5 rounded-xl p-3">
+          <input type="checkbox">
+          <span class="text-white">Push to GitHub</span>
+        </label>
+      </div>
+
+      <button class="w-full mt-5 py-3 rounded-xl bg-gradient-to-r from-emerald-400 to-cyan-400 text-black font-black">
+        + Add Task
+      </button>
+    </div>
+
+    <textarea id="src-todo-card" class="hidden"><div class="max-w-sm bg-[#131B2E] rounded-3xl border border-white/10 p-5">
+      <div class="flex items-center justify-between mb-4">
+        <h4 class="font-black text-white">Today's Tasks</h4>
+        <span class="text-xs px-2 py-1 rounded-full bg-emerald-500/10 text-emerald-400">
+          3 Left
+        </span>
+      </div>
+
+      <div class="space-y-3">
+        <label class="flex items-center gap-3 bg-white/5 rounded-xl p-3">
+          <input type="checkbox" checked>
+          <span class="text-slate-500 line-through">Design Hero</span>
+        </label>
+
+        <label class="flex items-center gap-3 bg-white/5 rounded-xl p-3">
+          <input type="checkbox">
+          <span class="text-white">Finish Dashboard</span>
+        </label>
+
+        <label class="flex items-center gap-3 bg-white/5 rounded-xl p-3">
+          <input type="checkbox">
+          <span class="text-white">Push to GitHub</span>
+        </label>
+      </div>
+
+      <button class="w-full mt-5 py-3 rounded-xl bg-gradient-to-r from-emerald-400 to-cyan-400 text-black font-black">
+        + Add Task
+      </button>
+    </div></textarea>
+
+    <button onclick="navigator.clipboard.writeText(document.getElementById('src-todo-card').value);alert('Todo Card Copied!')" class="mt-4 px-5 py-3 rounded-xl bg-gradient-to-r from-emerald-500 to-cyan-500 text-white text-sm font-bold">
+      📋 Copy Code
+    </button>
+  </div>
+
+</section>
+    <section class="max-w-6xl mx-auto px-4 pb-16 space-y-14">
+
+  <!-- ================= HERO 01 ================= -->
+  <div>
+    <h3 class="text-xl font-bold mb-4 text-white">Startup</h3>
+
+    <!-- LIVE PREVIEW -->
+    <div data-aos="fade-up" class="rounded-3xl border border-white/10 bg-gradient-to-br from-[#131B2E] to-[#0B1220] p-8 relative overflow-hidden">
+      <div class="absolute top-0 right-0 w-56 h-56 bg-emerald-500/10 blur-3xl rounded-full"></div>
+
+      <span class="inline-block px-3 py-1 rounded-full bg-emerald-500/10 text-emerald-400 text-xs font-bold">
+        NEW RELEASE
+      </span>
+
+      <h2 class="text-4xl font-black text-white mt-5 leading-tight">
+        Build websites 10× faster.
+      </h2>
+
+      <p class="text-slate-400 mt-4 max-w-md">
+        Premium Tailwind components ready to copy, customize and ship.
+      </p>
+
+      <div class="flex gap-3 mt-6">
+        <button class="px-5 py-3 rounded-xl bg-emerald-400 text-black font-bold">
+          Get Started
+        </button>
+
+        <button class="px-5 py-3 rounded-xl border border-white/10 text-white">
+          Live Demo
+        </button>
+      </div>
+    </div>
+
+    <!-- SOURCE -->
+    <textarea id="src-hero-01" class="hidden"><div class="rounded-3xl border border-white/10 bg-gradient-to-br from-[#131B2E] to-[#0B1220] p-8 relative overflow-hidden">
+      <div class="absolute top-0 right-0 w-56 h-56 bg-emerald-500/10 blur-3xl rounded-full"></div>
+
+      <span class="inline-block px-3 py-1 rounded-full bg-emerald-500/10 text-emerald-400 text-xs font-bold">
+        NEW RELEASE
+      </span>
+
+      <h2 class="text-4xl font-black text-white mt-5 leading-tight">
+        Build websites 10× faster.
+      </h2>
+
+      <p class="text-slate-400 mt-4 max-w-md">
+        Premium Tailwind components ready to copy, customize and ship.
+      </p>
+
+      <div class="flex gap-3 mt-6">
+        <button class="px-5 py-3 rounded-xl bg-emerald-400 text-black font-bold">
+          Get Started
+        </button>
+
+        <button class="px-5 py-3 rounded-xl border border-white/10 text-white">
+          Live Demo
+        </button>
+      </div>
+    </div></textarea>
+
+    <!-- COPY -->
+    <button onclick="navigator.clipboard.writeText(document.getElementById('src-hero-01').value); alert('Hero 01 Copied!')" class="mt-4 px-5 py-3 rounded-xl bg-gradient-to-r from-emerald-500 to-cyan-500 text-white text-sm font-bold">
+      📋 Copy Code
+    </button>
+  </div>
+
+  <!-- ================= HERO 02 ================= -->
+  <div>
+    <h3 class="text-xl font-bold mb-4 text-white"> AI Product</h3>
+
+    <div data-aos="fade-up" class="rounded-3xl bg-[#0F172A] border border-cyan-500/20 p-8 relative overflow-hidden">
+      <div class="absolute -top-10 -left-10 w-48 h-48 bg-cyan-500/10 rounded-full blur-3xl"></div>
+
+      <p class="text-cyan-400 text-xs font-bold uppercase tracking-[0.2em]">
+        AI PLATFORM
+      </p>
+
+      <h2 class="text-4xl font-black text-white mt-4">
+        Smarter apps with intelligent UI.
+      </h2>
+
+      <p class="text-slate-400 mt-4 max-w-lg">
+        Generate interfaces, dashboards and beautiful landing pages with reusable components.
+      </p>
+
+      <button class="mt-6 px-6 py-3 rounded-xl bg-gradient-to-r from-cyan-400 to-blue-500 text-black font-black">
+        Explore AI
+      </button>
+    </div>
+
+    <textarea id="src-hero-02" class="hidden"><div class="rounded-3xl bg-[#0F172A] border border-cyan-500/20 p-8 relative overflow-hidden">
+      <div class="absolute -top-10 -left-10 w-48 h-48 bg-cyan-500/10 rounded-full blur-3xl"></div>
+
+      <p class="text-cyan-400 text-xs font-bold uppercase tracking-[0.2em]">
+        AI PLATFORM
+      </p>
+
+      <h2 class="text-4xl font-black text-white mt-4">
+        Smarter apps with intelligent UI.
+      </h2>
+
+      <p class="text-slate-400 mt-4 max-w-lg">
+        Generate interfaces, dashboards and beautiful landing pages with reusable components.
+      </p>
+
+      <button class="mt-6 px-6 py-3 rounded-xl bg-gradient-to-r from-cyan-400 to-blue-500 text-black font-black">
+        Explore AI
+      </button>
+    </div></textarea>
+
+    <button onclick="navigator.clipboard.writeText(document.getElementById('src-hero-02').value); alert('Hero 02 Copied!')" class="mt-4 px-5 py-3 rounded-xl bg-gradient-to-r from-cyan-500 to-blue-500 text-white text-sm font-bold">
+      📋 Copy Code
+    </button>
+  </div>
+
+  <!-- ================= HERO 03 ================= -->
+  <div>
+    <h3 class="text-xl font-bold mb-4 text-white">Minimal</h3>
+
+    <div data-aos="fade-up" class="rounded-3xl border border-white/10 bg-[#111827] p-8">
+      <span class="text-orange-400 text-sm font-bold">BlazeUI Components</span>
+
+      <h2 class="text-5xl font-black text-white mt-3 leading-tight">
+        Design once. Reuse forever.
+      </h2>
+
+      <p class="text-slate-400 mt-5 max-w-xl">
+        A handcrafted collection of modern Tailwind UI blocks built for portfolios, SaaS and dashboards.
+      </p>
+
+      <div class="flex flex-wrap gap-3 mt-8">
+        <button class="px-6 py-3 rounded-xl bg-orange-500 text-white font-bold">
+          Browse Library
+        </button>
+
+        <button class="px-6 py-3 rounded-xl border border-white/10 text-white">
+          Documentation
+        </button>
+      </div>
+    </div>
+
+    <textarea id="src-hero-03" class="hidden"><div class="rounded-3xl border border-white/10 bg-[#111827] p-8">
+      <span class="text-orange-400 text-sm font-bold">BlazeUI Components</span>
+
+      <h2 class="text-5xl font-black text-white mt-3 leading-tight">
+        Design once. Reuse forever.
+      </h2>
+
+      <p class="text-slate-400 mt-5 max-w-xl">
+        A handcrafted collection of modern Tailwind UI blocks built for portfolios, SaaS and dashboards.
+      </p>
+
+      <div class="flex flex-wrap gap-3 mt-8">
+        <button class="px-6 py-3 rounded-xl bg-orange-500 text-white font-bold">
+          Browse Library
+        </button>
+
+        <button class="px-6 py-3 rounded-xl border border-white/10 text-white">
+          Documentation
+        </button>
+      </div>
+    </div></textarea>
+
+    <button onclick="navigator.clipboard.writeText(document.getElementById('src-hero-03').value); alert('Hero 03 Copied!')" class="mt-4 px-5 py-3 rounded-xl bg-gradient-to-r from-orange-500 to-amber-400 text-white text-sm font-bold">
+      📋 Copy Code
+    </button>
+  </div>
+
+</section>
+<section class="max-w-6xl mx-auto px-4 pb-16 space-y-14">
+
+  <!-- ========== Widget 01 ========== -->
+  <div>
+    <h3 class="text-xl font-bold text-white mb-4">CPU Monitor</h3>
+
+    <div data-aos="fade-up" class="max-w-xs bg-[#111827] border border-white/10 rounded-3xl p-5 relative overflow-hidden">
+      <div class="absolute -top-8 -right-8 w-24 h-24 bg-emerald-500/10 blur-3xl rounded-full"></div>
+
+      <div class="flex justify-between items-center">
+        <span class="text-xs uppercase text-slate-400 font-bold">CPU Usage</span>
+        <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+      </div>
+
+      <h2 class="text-4xl font-black text-white mt-4">34%</h2>
+      <p class="text-emerald-400 text-xs mt-1">Healthy performance</p>
+
+      <div class="mt-5 h-2 rounded-full bg-white/10 overflow-hidden">
+        <div class="h-full w-1/3 bg-gradient-to-r from-emerald-400 to-green-500"></div>
+      </div>
+    </div>
+
+    <textarea id="src-cpu-widget" class="hidden"><div class="max-w-xs bg-[#111827] border border-white/10 rounded-3xl p-5 relative overflow-hidden">
+      <div class="absolute -top-8 -right-8 w-24 h-24 bg-emerald-500/10 blur-3xl rounded-full"></div>
+
+      <div class="flex justify-between items-center">
+        <span class="text-xs uppercase text-slate-400 font-bold">CPU Usage</span>
+        <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+      </div>
+
+      <h2 class="text-4xl font-black text-white mt-4">34%</h2>
+      <p class="text-emerald-400 text-xs mt-1">Healthy performance</p>
+
+      <div class="mt-5 h-2 rounded-full bg-white/10 overflow-hidden">
+        <div class="h-full w-1/3 bg-gradient-to-r from-emerald-400 to-green-500"></div>
+      </div>
+    </div></textarea>
+
+    <button onclick="navigator.clipboard.writeText(document.getElementById('src-cpu-widget').value);alert('CPU Widget Copied!')" class="mt-4 px-5 py-3 rounded-xl bg-gradient-to-r from-emerald-500 to-green-500 text-white text-sm font-bold">
+      📋 Copy Code
+    </button>
+  </div>
+<div class="ad-card bg-white/5 border border-white/10 rounded-xl p-4">
+  <span class="text-xs text-gray-500">Sponsored</span>
+  <!-- Your ad content here -->
+  <script async="async" data-cfasync="false" src="https://pl30930495.effectivecpmnetwork.com/f0fce54c1bebadc4d198b1c7ec83f31a/invoke.js"></script>
+<div id="container-f0fce54c1bebadc4d198b1c7ec83f31a"></div>
+
+</div>
+  <!-- ========== Widget 02 ========== -->
+  <div>
+    <h3 class="text-xl font-bold text-white mb-4">Storage Card</h3>
+
+    <div data-aos="fade-up" class="max-w-xs bg-[#131B2E] border border-white/10 rounded-3xl p-5">
+      <div class="flex justify-between items-center">
+        <span class="text-xs uppercase text-slate-400 font-bold">Storage</span>
+        <span class="text-blue-400 text-xs font-bold">512GB</span>
+      </div>
+
+      <div class="mt-5 flex justify-center">
+        <div class="w-28 h-28 rounded-full border-[10px] border-blue-500 flex items-center justify-center">
+          <span class="text-2xl font-black text-white">72%</span>
+        </div>
+      </div>
+
+      <p class="text-center text-slate-400 text-sm mt-4">368GB Used</p>
+    </div>
+
+    <textarea id="src-storage-widget" class="hidden"><div class="max-w-xs bg-[#131B2E] border border-white/10 rounded-3xl p-5">
+      <div class="flex justify-between items-center">
+        <span class="text-xs uppercase text-slate-400 font-bold">Storage</span>
+        <span class="text-blue-400 text-xs font-bold">512GB</span>
+      </div>
+
+      <div class="mt-5 flex justify-center">
+        <div class="w-28 h-28 rounded-full border-[10px] border-blue-500 flex items-center justify-center">
+          <span class="text-2xl font-black text-white">72%</span>
+        </div>
+      </div>
+
+      <p class="text-center text-slate-400 text-sm mt-4">368GB Used</p>
+    </div></textarea>
+
+    <button onclick="navigator.clipboard.writeText(document.getElementById('src-storage-widget').value);alert('Storage Widget Copied!')" class="mt-4 px-5 py-3 rounded-xl bg-gradient-to-r from-blue-500 to-cyan-500 text-white text-sm font-bold">
+      📋 Copy Code
+    </button>
+  </div>
+
+  <!-- ========== Widget 03 ========== -->
+  <div>
+    <h3 class="text-xl font-bold text-white mb-4">Downloads Today</h3>
+
+    <div data-aos="fade-up" class="max-w-xs bg-gradient-to-br from-[#151B2F] to-[#0B1020] border border-white/10 rounded-3xl p-5 relative overflow-hidden">
+      <div class="absolute bottom-0 left-0 w-24 h-24 bg-orange-500/10 blur-2xl rounded-full"></div>
+
+      <span class="text-xs uppercase text-slate-400 font-bold">Downloads</span>
+
+      <h2 class="text-4xl font-black text-white mt-3">18,420</h2>
+
+      <div class="flex items-center gap-2 mt-2">
+        <span class="text-orange-400 font-bold">↑ 12%</span>
+        <span class="text-slate-500 text-xs">today</span>
+      </div>
+    </div>
+
+    <textarea id="src-download-widget" class="hidden"><div class="max-w-xs bg-gradient-to-br from-[#151B2F] to-[#0B1020] border border-white/10 rounded-3xl p-5 relative overflow-hidden">
+      <div class="absolute bottom-0 left-0 w-24 h-24 bg-orange-500/10 blur-2xl rounded-full"></div>
+
+      <span class="text-xs uppercase text-slate-400 font-bold">Downloads</span>
+
+      <h2 class="text-4xl font-black text-white mt-3">18,420</h2>
+
+      <div class="flex items-center gap-2 mt-2">
+        <span class="text-orange-400 font-bold">↑ 12%</span>
+        <span class="text-slate-500 text-xs">today</span>
+      </div>
+    </div></textarea>
+
+    <button onclick="navigator.clipboard.writeText(document.getElementById('src-download-widget').value);alert('Download Widget Copied!')" class="mt-4 px-5 py-3 rounded-xl bg-gradient-to-r from-orange-500 to-amber-400 text-white text-sm font-bold">
+      📋 Copy Code
+    </button>
+  </div>
+
+</section>
+    <section class="max-w-6xl mx-auto px-4 pb-16 space-y-14">
+
+  <!-- ================= CTA 01 ================= -->
+  <div>
+    <h3 class="text-xl font-bold text-white mb-4">CTA Banner</h3>
+
+    <div data-aos="fade-up" class="rounded-3xl bg-gradient-to-r from-emerald-500 to-cyan-500 p-[1px]">
+      <div class="rounded-3xl bg-[#0B0F19] p-8 text-center">
+        <span class="text-emerald-400 text-xs font-bold uppercase tracking-[0.2em]">BlazeUI</span>
+
+        <h2 class="text-3xl font-black text-white mt-3">
+          Ready to ship your next project?
+        </h2>
+
+        <p class="text-slate-400 mt-3 max-w-md mx-auto">
+          Copy premium components and build faster with reusable Tailwind UI.
+        </p>
+
+        <button class="mt-6 px-6 py-3 rounded-xl bg-gradient-to-r from-emerald-400 to-cyan-500 text-black font-black">
+          Browse Templates
+        </button>
+      </div>
+    </div>
+
+    <textarea id="src-cta-banner" class="hidden"><div class="rounded-3xl bg-gradient-to-r from-emerald-500 to-cyan-500 p-[1px]">
+      <div class="rounded-3xl bg-[#0B0F19] p-8 text-center">
+        <span class="text-emerald-400 text-xs font-bold uppercase tracking-[0.2em]">BlazeUI</span>
+
+        <h2 class="text-3xl font-black text-white mt-3">
+          Ready to ship your next project?
+        </h2>
+
+        <p class="text-slate-400 mt-3 max-w-md mx-auto">
+          Copy premium components and build faster with reusable Tailwind UI.
+        </p>
+
+        <button class="mt-6 px-6 py-3 rounded-xl bg-gradient-to-r from-emerald-400 to-cyan-500 text-black font-black">
+          Browse Templates
+        </button>
+      </div>
+    </div></textarea>
+
+    <button onclick="navigator.clipboard.writeText(document.getElementById('src-cta-banner').value);alert('CTA Banner Copied!')" class="mt-4 px-5 py-3 rounded-xl bg-gradient-to-r from-emerald-500 to-cyan-500 text-white text-sm font-bold">
+      📋 Copy Code
+    </button>
+  </div>
+
+  <!-- ================= CTA 02 ================= -->
+  <div>
+    <h3 class="text-xl font-bold text-white mb-4">Newsletter CTA</h3>
+
+    <div data-aos="fade-up" class="rounded-3xl bg-[#131B2E] border border-white/10 p-8">
+      <h2 class="text-3xl font-black text-white">
+        Join 12,000+ Developers
+      </h2>
+
+      <p class="text-slate-400 mt-3">
+        Get new components every week directly in your inbox.
+      </p>
+
+      <div class="flex flex-col sm:flex-row gap-3 mt-6">
+        <input type="email" placeholder="Enter your email"
+          class="flex-1 bg-[#0B0F19] border border-white/10 rounded-xl px-4 py-3 text-white outline-none focus:border-emerald-400">
+
+        <button class="px-6 py-3 rounded-xl bg-emerald-400 text-black font-black">
+          Subscribe
+        </button>
+      </div>
+    </div>
+
+    <textarea id="src-newsletter-cta" class="hidden"><div class="rounded-3xl bg-[#131B2E] border border-white/10 p-8">
+      <h2 class="text-3xl font-black text-white">
+        Join 12,000+ Developers
+      </h2>
+
+      <p class="text-slate-400 mt-3">
+        Get new components every week directly in your inbox.
+      </p>
+
+      <div class="flex flex-col sm:flex-row gap-3 mt-6">
+        <input type="email" placeholder="Enter your email"
+          class="flex-1 bg-[#0B0F19] border border-white/10 rounded-xl px-4 py-3 text-white outline-none focus:border-emerald-400">
+
+        <button class="px-6 py-3 rounded-xl bg-emerald-400 text-black font-black">
+          Subscribe
+        </button>
+      </div>
+    </div></textarea>
+
+    <button onclick="navigator.clipboard.writeText(document.getElementById('src-newsletter-cta').value);alert('Newsletter Copied!')" class="mt-4 px-5 py-3 rounded-xl bg-gradient-to-r from-emerald-500 to-green-500 text-white text-sm font-bold">
+      📋 Copy Code
+    </button>
+  </div>
+<div class="ad-card bg-white/5 border border-white/10 rounded-xl p-4">
+  <span class="text-xs text-gray-500">Sponsored</span>
+  <!-- Your ad content here -->
+  <script async="async" data-cfasync="false" src="https://pl30930495.effectivecpmnetwork.com/f0fce54c1bebadc4d198b1c7ec83f31a/invoke.js"></script>
+<div id="container-f0fce54c1bebadc4d198b1c7ec83f31a"></div>
+
+</div>
+  <!-- ================= CTA 03 ================= -->
+  <div>
+    <h3 class="text-xl font-bold text-white mb-4">Minimal CTA</h3>
+
+    <div data-aos="fade-up" class="rounded-3xl border border-white/10 bg-[#111827] p-8 flex flex-col md:flex-row items-center justify-between gap-6">
+      <div>
+        <p class="text-orange-400 text-sm font-bold">Premium UI Kit</p>
+        <h2 class="text-3xl font-black text-white mt-2">
+          100+ Ready Components
+        </h2>
+      </div>
+
+      <button class="px-6 py-3 rounded-xl bg-orange-500 text-white font-black whitespace-nowrap">
+        Get Access
+      </button>
+    </div>
+
+    <textarea id="src-minimal-cta" class="hidden"><div class="rounded-3xl border border-white/10 bg-[#111827] p-8 flex flex-col md:flex-row items-center justify-between gap-6">
+      <div>
+        <p class="text-orange-400 text-sm font-bold">Premium UI Kit</p>
+        <h2 class="text-3xl font-black text-white mt-2">
+          100+ Ready Components
+        </h2>
+      </div>
+
+      <button class="px-6 py-3 rounded-xl bg-orange-500 text-white font-black whitespace-nowrap">
+        Get Access
+      </button>
+    </div></textarea>
+
+    <button onclick="navigator.clipboard.writeText(document.getElementById('src-minimal-cta').value);alert('Minimal CTA Copied!')" class="mt-4 px-5 py-3 rounded-xl bg-gradient-to-r from-orange-500 to-amber-500 text-white text-sm font-bold">
+      📋 Copy Code
+    </button>
+  </div>
+
+</section>
+    <section class="max-w-6xl mx-auto px-4 pb-16 space-y-14">
+
+  <!-- ================= TEMPLATE 22 ================= -->
+  <div>
+    <h3 class="text-xl font-bold text-white mb-4">Starter Pricing</h3>
+
+    <div data-aos="fade-up" class="max-w-sm rounded-3xl bg-[#131B2E] border border-white/10 p-6">
+      <p class="text-emerald-400 font-bold">STARTER</p>
+
+      <h2 class="text-5xl font-black text-white mt-3">$0</h2>
+      <p class="text-slate-400 text-sm mt-1">Perfect for personal projects.</p>
+
+      <div class="space-y-3 mt-6 text-sm text-slate-300">
+        <div>✓ 25 Components</div>
+        <div>✓ Lifetime Access</div>
+        <div>✓ MIT License</div>
+      </div>
+
+      <button class="w-full mt-6 py-3 rounded-xl bg-white/10 text-white font-bold">
+        Download
+      </button>
+    </div>
+
+    <textarea id="src-price-starter" class="hidden"><div class="max-w-sm rounded-3xl bg-[#131B2E] border border-white/10 p-6">
+      <p class="text-emerald-400 font-bold">STARTER</p>
+
+      <h2 class="text-5xl font-black text-white mt-3">$0</h2>
+      <p class="text-slate-400 text-sm mt-1">Perfect for personal projects.</p>
+
+      <div class="space-y-3 mt-6 text-sm text-slate-300">
+        <div>✓ 25 Components</div>
+        <div>✓ Lifetime Access</div>
+        <div>✓ MIT License</div>
+      </div>
+
+      <button class="w-full mt-6 py-3 rounded-xl bg-white/10 text-white font-bold">
+        Download
+      </button>
+    </div></textarea>
+
+    <button onclick="navigator.clipboard.writeText(document.getElementById('src-price-starter').value);alert('Starter Copied!')" class="mt-4 px-5 py-3 rounded-xl bg-gradient-to-r from-emerald-500 to-cyan-500 text-white text-sm font-bold">
+      📋 Copy Code
+    </button>
+  </div>
+
+  <!-- ================= TEMPLATE 23 ================= -->
+  <div>
+    <h3 class="text-xl font-bold text-white mb-4">Pro Pricing</h3>
+
+    <div data-aos="fade-up" class="max-w-sm rounded-3xl bg-gradient-to-br from-[#1B2438] to-[#111827] border border-orange-500/30 p-6 relative overflow-hidden">
+      <span class="absolute top-4 right-4 px-2 py-1 rounded-full bg-orange-500 text-[10px] font-black text-white">
+        BEST
+      </span>
+
+      <p class="text-orange-400 font-bold">PRO</p>
+
+      <h2 class="text-5xl font-black text-white mt-3">$29</h2>
+      <p class="text-slate-400 text-sm">per month</p>
+
+      <div class="space-y-3 mt-6 text-sm text-slate-300">
+        <div>✓ 250+ Components</div>
+        <div>✓ Premium Templates</div>
+        <div>✓ Priority Support</div>
+        <div>✓ Lifetime Updates</div>
+      </div>
+
+      <button class="w-full mt-6 py-3 rounded-xl bg-gradient-to-r from-orange-500 to-amber-400 text-white font-black">
+        Upgrade
+      </button>
+    </div>
+
+    <textarea id="src-price-pro" class="hidden"><div class="max-w-sm rounded-3xl bg-gradient-to-br from-[#1B2438] to-[#111827] border border-orange-500/30 p-6 relative overflow-hidden">
+      <span class="absolute top-4 right-4 px-2 py-1 rounded-full bg-orange-500 text-[10px] font-black text-white">
+        BEST
+      </span>
+
+      <p class="text-orange-400 font-bold">PRO</p>
+
+      <h2 class="text-5xl font-black text-white mt-3">$29</h2>
+      <p class="text-slate-400 text-sm">per month</p>
+
+      <div class="space-y-3 mt-6 text-sm text-slate-300">
+        <div>✓ 250+ Components</div>
+        <div>✓ Premium Templates</div>
+        <div>✓ Priority Support</div>
+        <div>✓ Lifetime Updates</div>
+      </div>
+
+      <button class="w-full mt-6 py-3 rounded-xl bg-gradient-to-r from-orange-500 to-amber-400 text-white font-black">
+        Upgrade
+      </button>
+    </div></textarea>
+
+    <button onclick="navigator.clipboard.writeText(document.getElementById('src-price-pro').value);alert('Pro Copied!')" class="mt-4 px-5 py-3 rounded-xl bg-gradient-to-r from-orange-500 to-amber-500 text-white text-sm font-bold">
+      📋 Copy Code
+    </button>
+  </div>
+
+  <!-- ================= TEMPLATE 24 ================= -->
+  <div>
+    <h3 class="text-xl font-bold text-white mb-4">Enterprise Pricing</h3>
+
+    <div data-aos="fade-up" class="max-w-sm rounded-3xl bg-[#0F172A] border border-cyan-500/20 p-6">
+      <p class="text-cyan-400 font-bold">ENTERPRISE</p>
+
+      <h2 class="text-4xl font-black text-white mt-3">Custom</h2>
+      <p class="text-slate-400 text-sm mt-2">
+        Tailored solutions for large teams and companies.
+      </p>
+
+      <div class="space-y-3 mt-6 text-sm text-slate-300">
+        <div>✓ Unlimited Everything</div>
+        <div>✓ Dedicated Engineer</div>
+        <div>✓ Design System</div>
+        <div>✓ 24/7 Support</div>
+      </div>
+
+      <button class="w-full mt-6 py-3 rounded-xl bg-cyan-500 text-black font-black">
+        Contact Sales
+      </button>
+    </div>
+
+    <textarea id="src-price-enterprise" class="hidden"><div class="max-w-sm rounded-3xl bg-[#0F172A] border border-cyan-500/20 p-6">
+      <p class="text-cyan-400 font-bold">ENTERPRISE</p>
+
+      <h2 class="text-4xl font-black text-white mt-3">Custom</h2>
+      <p class="text-slate-400 text-sm mt-2">
+        Tailored solutions for large teams and companies.
+      </p>
+
+      <div class="space-y-3 mt-6 text-sm text-slate-300">
+        <div>✓ Unlimited Everything</div>
+        <div>✓ Dedicated Engineer</div>
+        <div>✓ Design System</div>
+        <div>✓ 24/7 Support</div>
+      </div>
+
+      <button class="w-full mt-6 py-3 rounded-xl bg-cyan-500 text-black font-black">
+        Contact Sales
+      </button>
+    </div></textarea>
+
+    <button onclick="navigator.clipboard.writeText(document.getElementById('src-price-enterprise').value);alert('Enterprise Copied!')" class="mt-4 px-5 py-3 rounded-xl bg-gradient-to-r from-cyan-500 to-blue-500 text-white text-sm font-bold">
+      📋 Copy Code
+    </button>
+  </div>
+
+</section>
+    <section class="max-w-6xl mx-auto px-4 pb-16 space-y-14">
+
+  <!-- ===== FAQ 01 ===== -->
+  <div>
+    <h3 class="text-xl font-bold text-white mb-4">FAQ Accordion</h3>
+
+    <div data-aos="fade-up" class="max-w-2xl bg-[#131B2E] border border-white/10 rounded-3xl p-6">
+      <details class="group">
+        <summary class="flex justify-between items-center cursor-pointer list-none">
+          <span class="font-bold text-white">Can I use BlazeUI for free?</span>
+          <span class="text-slate-400 group-open:rotate-45 transition">+</span>
+        </summary>
+        <p class="text-slate-400 mt-4 text-sm">
+          Yes. All free components can be used in personal and commercial projects.
+        </p>
+      </details>
+    </div>
+
+    <textarea id="src-faq-01" class="hidden"><div class="max-w-2xl bg-[#131B2E] border border-white/10 rounded-3xl p-6">
+      <details class="group">
+        <summary class="flex justify-between items-center cursor-pointer list-none">
+          <span class="font-bold text-white">Can I use BlazeUI for free?</span>
+          <span class="text-slate-400 group-open:rotate-45 transition">+</span>
+        </summary>
+        <p class="text-slate-400 mt-4 text-sm">
+          Yes. All free components can be used in personal and commercial projects.
+        </p>
+      </details>
+    </div></textarea>
+
+    <button onclick="navigator.clipboard.writeText(document.getElementById('src-faq-01').value);alert('FAQ Copied!')" class="mt-4 px-5 py-3 rounded-xl bg-gradient-to-r from-emerald-500 to-cyan-500 text-white text-sm font-bold">
+      📋 Copy Code
+    </button>
+  </div>
+<div class="ad-card bg-white/5 border border-white/10 rounded-xl p-4">
+  <span class="text-xs text-gray-500">Sponsored</span>
+  <!-- Your ad content here -->
+  <script async="async" data-cfasync="false" src="https://pl30930495.effectivecpmnetwork.com/f0fce54c1bebadc4d198b1c7ec83f31a/invoke.js"></script>
+<div id="container-f0fce54c1bebadc4d198b1c7ec83f31a"></div>
+
+</div>
+  <!-- ===== FAQ 02 ===== -->
+  <div>
+    <h3 class="text-xl font-bold text-white mb-4">Support Card</h3>
+
+    <div data-aos="fade-up" class="max-w-md bg-[#101726] border border-cyan-500/20 rounded-3xl p-6">
+      <div class="w-12 h-12 rounded-2xl bg-cyan-500/10 flex items-center justify-center text-2xl mb-4">
+        💬
+      </div>
+      <h4 class="text-xl font-black text-white">Need Help?</h4>
+      <p class="text-slate-400 text-sm mt-2">
+        Chat directly with RandyBlazeDev on WhatsApp for support.
+      </p>
+      <a href="https://wa.me/237676162113" target="_blank" class="inline-block mt-6 px-5 py-3 rounded-xl bg-cyan-500 text-black font-bold">
+        Open WhatsApp
+      </a>
+    </div>
+
+    <textarea id="src-support-card" class="hidden"><div class="max-w-md bg-[#101726] border border-cyan-500/20 rounded-3xl p-6">
+      <div class="w-12 h-12 rounded-2xl bg-cyan-500/10 flex items-center justify-center text-2xl mb-4">
+        💬
+      </div>
+      <h4 class="text-xl font-black text-white">Need Help?</h4>
+      <p class="text-slate-400 text-sm mt-2">
+        Chat directly with RandyBlazeDev on WhatsApp for support.
+      </p>
+      <a href="https://wa.me/237676162113" target="_blank" class="inline-block mt-6 px-5 py-3 rounded-xl bg-cyan-500 text-black font-bold">
+        Open WhatsApp
+      </a>
+    </div></textarea>
+
+    <button onclick="navigator.clipboard.writeText(document.getElementById('src-support-card').value);alert('Support Card Copied!')" class="mt-4 px-5 py-3 rounded-xl bg-gradient-to-r from-cyan-500 to-blue-500 text-white text-sm font-bold">
+      📋 Copy Code
+    </button>
+  </div>
+
+  <!-- ===== FAQ 03 ===== -->
+  <div>
+    <h3 class="text-xl font-bold text-white mb-4">Community Banner</h3>
+
+    <div data-aos="fade-up" class="max-w-2xl rounded-3xl bg-gradient-to-r from-purple-600 to-indigo-600 p-8">
+      <p class="text-purple-200 text-sm font-bold">COMMUNITY</p>
+      <h2 class="text-3xl font-black text-white mt-2">
+        Join the BlazeUI builders.
+      </h2>
+      <p class="text-purple-100 mt-3">
+        Share your projects and discover new Tailwind components every week.
+      </p>
+    </div>
+
+    <textarea id="src-community-banner" class="hidden"><div class="max-w-2xl rounded-3xl bg-gradient-to-r from-purple-600 to-indigo-600 p-8">
+      <p class="text-purple-200 text-sm font-bold">COMMUNITY</p>
+      <h2 class="text-3xl font-black text-white mt-2">
+        Join the BlazeUI builders.
+      </h2>
+      <p class="text-purple-100 mt-3">
+        Share your projects and discover new Tailwind components every week.
+      </p>
+    </div></textarea>
+
+    <button onclick="navigator.clipboard.writeText(document.getElementById('src-community-banner').value);alert('Banner Copied!')" class="mt-4 px-5 py-3 rounded-xl bg-gradient-to-r from-purple-500 to-indigo-500 text-white text-sm font-bold">
+      📋 Copy Code
+    </button>
+  </div>
+  </section>
+<!-- ================= COMMAND PALETTE ================= -->
+<section class="max-w-6xl mx-auto px-4 pb-16">
+
+  <h3 class="text-2xl font-black text-white mb-4">
+    Command Palette
+  </h3>
+
+  <!-- LIVE PREVIEW -->
+  <div data-aos="fade-up" class="max-w-2xl rounded-3xl bg-[#131B2E] border border-white/10 p-5 shadow-2xl">
+
+    <div class="flex-wrap items-center gap-3 bg-white/5 rounded-2xl px-4 py-3 border border-white/5">
+      <span class="text-slate-500 text-lg">⌕</span>
+      <input
+        type="text"
+        placeholder="Search templates, components..."
+        class="bg-transparent flex-1 outline-none text-white placeholder-slate-500"
+      >
+      <span class="text-[11px] px-2 py-1 rounded-lg bg-white/5 text-slate-400">
+        Ctrl K
+      </span>
+    </div>
+
+    <div class="mt-5 space-y-2">
+
+      <div class="flex-wrap items-center justify-between rounded-xl bg-emerald-500/10 border border-emerald-500/20 px-4 py-3">
+        <div>
+          <p class="text-white font-semibold">Analytics Dashboard</p>
+          <span class="text-xs text-emerald-400">Template</span>
+        </div>
+        <span class="text-slate-500">↵</span>
+      </div>
+
+      <div class="flex items-center justify-between rounded-xl bg-white/5 px-4 py-3 hover:bg-white/10 transition">
+        <div>
+          <p class="text-white font-semibold">Login Form</p>
+          <span class="text-xs text-slate-400">Component</span>
+        </div>
+        <span class="text-slate-500">↵</span>
+      </div>
+
+      <div class="flex items-center justify-between rounded-xl bg-white/5 px-4 py-3 hover:bg-white/10 transition">
+        <div>
+          <p class="text-white font-semibold">Pricing Card</p>
+          <span class="text-xs text-slate-400">Component</span>
+        </div>
+        <span class="text-slate-500">↵</span>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- HIDDEN SOURCE -->
+  <textarea id="src-command-palette" class="hidden"><div class="max-w-2xl rounded-3xl bg-[#131B2E] border border-white/10 p-5 shadow-2xl">
+
+    <div class="flex-wrap items-center gap-3 bg-white/5 rounded-2xl px-4 py-3 border border-white/5">
+      <span class="text-slate-500 text-lg">⌕</span>
+      <input
+        type="text"
+        placeholder="Search templates, components..."
+        class="bg-transparent flex-1 outline-none text-white placeholder-slate-500"
+      >
+      <span class="text-[11px] px-2 py-1 rounded-lg bg-white/5 text-slate-400">
+        Ctrl K
+      </span>
+    </div>
+
+    <div class="mt-5 space-y-2">
+
+      <div class="flex-wrap items-center justify-between rounded-xl bg-emerald-500/10 border border-emerald-500/20 px-4 py-3">
+        <div>
+          <p class="text-white font-semibold">Analytics Dashboard</p>
+          <span class="text-xs text-emerald-400">Template</span>
+        </div>
+        <span class="text-slate-500">↵</span>
+      </div>
+
+      <div class="flex items-center justify-between rounded-xl bg-white/5 px-4 py-3 hover:bg-white/10 transition">
+        <div>
+          <p class="text-white font-semibold">Login Form</p>
+          <span class="text-xs text-slate-400">Component</span>
+        </div>
+        <span class="text-slate-500">↵</span>
+      </div>
+
+      <div class="flex items-center justify-between rounded-xl bg-white/5 px-4 py-3 hover:bg-white/10 transition">
+        <div>
+          <p class="text-white font-semibold">Pricing Card</p>
+          <span class="text-xs text-slate-400">Component</span>
+        </div>
+        <span class="text-slate-500">↵</span>
+      </div>
+
+    </div>
+  </div></textarea>
+
+  <!-- COPY BUTTON -->
+  <button
+    onclick="navigator.clipboard.writeText(document.getElementById('src-command-palette').value);alert('Command Palette Copied!')"
+    class="mt-4 px-5 py-3 rounded-xl bg-gradient-to-r from-cyan-500 to-blue-500 text-white text-sm font-bold">
+    📋 Copy Code
+  </button>
+<div class="ad-card bg-white/5 border border-white/10 rounded-xl p-4 mt-4">
+  <span class="text-xs text-gray-500">Sponsored</span>
+  <!-- Your ad content here -->
+  <script async="async" data-cfasync="false" src="https://pl30930495.effectivecpmnetwork.com/f0fce54c1bebadc4d198b1c7ec83f31a/invoke.js"></script>
+<div id="container-f0fce54c1bebadc4d198b1c7ec83f31a"></div>
+
+</div>
+</section>
+    <section class="max-w-6xl mx-auto px-4 pb-16 space-y-14">
+
+  <!-- ================= NOTIFICATION TOAST ================= -->
+  <div>
+    <h3 class="text-xl font-bold text-white mb-4">Notification Toast</h3>
+
+    <div data-aos="fade-up" class="max-w-sm bg-[#131B2E] border border-white/10 rounded-2xl p-4 flex items-start gap-3 shadow-2xl">
+      <div class="w-9 h-9 rounded-full bg-emerald-500/10 flex items-center justify-center text-emerald-400 flex-shrink-0">
+        ✓
+      </div>
+      <div class="flex-1">
+        <p class="text-white font-bold text-sm">Payment successful</p>
+        <p class="text-slate-400 text-xs mt-1">Your subscription has been renewed.</p>
+      </div>
+      <button class="text-slate-500 hover:text-white text-sm">✕</button>
+    </div>
+
+    <textarea id="src-toast-notification" class="hidden"><div class="max-w-sm bg-[#131B2E] border border-white/10 rounded-2xl p-4 flex items-start gap-3 shadow-2xl">
+      <div class="w-9 h-9 rounded-full bg-emerald-500/10 flex items-center justify-center text-emerald-400 flex-shrink-0">
+        ✓
+      </div>
+      <div class="flex-1">
+        <p class="text-white font-bold text-sm">Payment successful</p>
+        <p class="text-slate-400 text-xs mt-1">Your subscription has been renewed.</p>
+      </div>
+      <button class="text-slate-500 hover:text-white text-sm">✕</button>
+    </div></textarea>
+
+    <button onclick="navigator.clipboard.writeText(document.getElementById('src-toast-notification').value);alert('Toast Copied!')" class="mt-4 px-5 py-3 rounded-xl bg-gradient-to-r from-emerald-500 to-cyan-500 text-white text-sm font-bold">
+      📋 Copy Code
+    </button>
+  </div>
+
+  <!-- ================= MUSIC PLAYER ================= -->
+  <div>
+    <h3 class="text-xl font-bold text-white mb-4">Music Player</h3>
+
+    <div data-aos="fade-up" class="max-w-sm bg-gradient-to-br from-[#1B2438] to-[#0B0F19] border border-white/10 rounded-3xl p-5">
+      <div class="w-full h-36 rounded-2xl bg-gradient-to-br from-purple-500/30 to-pink-500/30 flex items-center justify-center text-4xl">
+        🎵
+      </div>
+      <h4 class="text-white font-bold mt-4">Midnight Drive</h4>
+      <p class="text-slate-400 text-sm">Lo-Fi Beats</p>
+
+      <div class="mt-4 h-1 rounded-full bg-white/10 overflow-hidden">
+        <div class="h-full w-2/5 bg-gradient-to-r from-purple-400 to-pink-400"></div>
+      </div>
+
+      <div class="flex items-center justify-center gap-6 mt-5 text-white">
+        <button class="text-xl">⏮</button>
+        <button class="w-12 h-12 rounded-full bg-white text-black flex items-center justify-center text-lg">▶</button>
+        <button class="text-xl">⏭</button>
+      </div>
+    </div>
+
+    <textarea id="src-music-player" class="hidden"><div class="max-w-sm bg-gradient-to-br from-[#1B2438] to-[#0B0F19] border border-white/10 rounded-3xl p-5">
+      <div class="w-full h-36 rounded-2xl bg-gradient-to-br from-purple-500/30 to-pink-500/30 flex items-center justify-center text-4xl">
+        🎵
+      </div>
+      <h4 class="text-white font-bold mt-4">Midnight Drive</h4>
+      <p class="text-slate-400 text-sm">Lo-Fi Beats</p>
+
+      <div class="mt-4 h-1 rounded-full bg-white/10 overflow-hidden">
+        <div class="h-full w-2/5 bg-gradient-to-r from-purple-400 to-pink-400"></div>
+      </div>
+
+      <div class="flex items-center justify-center gap-6 mt-5 text-white">
+        <button class="text-xl">⏮</button>
+        <button class="w-12 h-12 rounded-full bg-white text-black flex items-center justify-center text-lg">▶</button>
+        <button class="text-xl">⏭</button>
+      </div>
+    </div></textarea>
+
+    <button onclick="navigator.clipboard.writeText(document.getElementById('src-music-player').value);alert('Music Player Copied!')" class="mt-4 px-5 py-3 rounded-xl bg-gradient-to-r from-purple-500 to-pink-500 text-white text-sm font-bold">
+      📋 Copy Code
+    </button>
+  </div>
+
+  <!-- ================= WEATHER WIDGET ================= -->
+  <div>
+    <h3 class="text-xl font-bold text-white mb-4">Weather Widget</h3>
+
+    <div data-aos="fade-up" class="max-w-xs bg-gradient-to-br from-blue-600 to-cyan-500 rounded-3xl p-6 relative overflow-hidden">
+      <div class="absolute -bottom-6 -right-6 text-8xl opacity-20">☀️</div>
+      <p class="text-white/80 text-sm font-bold">San Francisco</p>
+      <h2 class="text-5xl font-black text-white mt-2">72°</h2>
+      <p class="text-white/90 mt-1">Sunny</p>
+      <div class="flex justify-between mt-6 text-white/80 text-xs">
+        <span>H: 78°</span>
+        <span>L: 61°</span>
+      </div>
+    </div>
+
+    <textarea id="src-weather-widget" class="hidden"><div class="max-w-xs bg-gradient-to-br from-blue-600 to-cyan-500 rounded-3xl p-6 relative overflow-hidden">
+      <div class="absolute -bottom-6 -right-6 text-8xl opacity-20">☀️</div>
+      <p class="text-white/80 text-sm font-bold">San Francisco</p>
+      <h2 class="text-5xl font-black text-white mt-2">72°</h2>
+      <p class="text-white/90 mt-1">Sunny</p>
+      <div class="flex justify-between mt-6 text-white/80 text-xs">
+        <span>H: 78°</span>
+        <span>L: 61°</span>
+      </div>
+    </div></textarea>
+
+    <button onclick="navigator.clipboard.writeText(document.getElementById('src-weather-widget').value);alert('Weather Widget Copied!')" class="mt-4 px-5 py-3 rounded-xl bg-gradient-to-r from-blue-500 to-cyan-500 text-white text-sm font-bold">
+      📋 Copy Code
+    </button>
+  </div>
+
+  <!-- ================= BLOG POST CARD ================= -->
+  <div>
+    <h3 class="text-xl font-bold text-white mb-4">Blog Post Card</h3>
+
+    <div data-aos="fade-up" class="max-w-sm bg-[#131B2E] border border-white/10 rounded-3xl overflow-hidden">
+      <img src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=800" class="w-full h-40 object-cover">
+      <div class="p-5">
+        <span class="text-emerald-400 text-xs font-bold uppercase">Design</span>
+        <h4 class="text-lg font-black text-white mt-2">10 Tips for Better UI Design</h4>
+        <p class="text-slate-400 text-sm mt-2">Learn the fundamentals of crafting clean, usable interfaces.</p>
+        <div class="flex items-center gap-2 mt-4 text-xs text-slate-500">
+          <span>5 min read</span>
+          <span>•</span>
+          <span>Aug 12</span>
+        </div>
+      </div>
+    </div>
+
+    <textarea id="src-blog-card" class="hidden"><div class="max-w-sm bg-[#131B2E] border border-white/10 rounded-3xl overflow-hidden">
+      <img src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=800" class="w-full h-40 object-cover">
+      <div class="p-5">
+        <span class="text-emerald-400 text-xs font-bold uppercase">Design</span>
+        <h4 class="text-lg font-black text-white mt-2">10 Tips for Better UI Design</h4>
+        <p class="text-slate-400 text-sm mt-2">Learn the fundamentals of crafting clean, usable interfaces.</p>
+        <div class="flex items-center gap-2 mt-4 text-xs text-slate-500">
+          <span>5 min read</span>
+          <span>•</span>
+          <span>Aug 12</span>
+        </div>
+      </div>
+    </div></textarea>
+
+    <button onclick="navigator.clipboard.writeText(document.getElementById('src-blog-card').value);alert('Blog Card Copied!')" class="mt-4 px-5 py-3 rounded-xl bg-gradient-to-r from-emerald-500 to-cyan-500 text-white text-sm font-bold">
+      📋 Copy Code
+    </button>
+  </div>
+<div class="ad-card bg-white/5 border border-white/10 rounded-xl p-4">
+  <span class="text-xs text-gray-500">Sponsored</span>
+  <!-- Your ad content here -->
+  <script async="async" data-cfasync="false" src="https://pl30930495.effectivecpmnetwork.com/f0fce54c1bebadc4d198b1c7ec83f31a/invoke.js"></script>
+<div id="container-f0fce54c1bebadc4d198b1c7ec83f31a"></div>
+
+</div>
+  <!-- ================= TEAM MEMBER CARD ================= -->
+  <div>
+    <h3 class="text-xl font-bold text-white mb-4">Team Member Card</h3>
+
+    <div data-aos="fade-up" class="max-w-xs bg-[#111827] border border-white/10 rounded-3xl p-6 text-center">
+      <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200" class="w-20 h-20 rounded-full mx-auto object-cover border-2 border-white/10">
+      <h4 class="text-lg font-black text-white mt-4">Sarah Kim</h4>
+      <p class="text-slate-400 text-sm">Product Designer</p>
+      <div class="flex justify-center gap-3 mt-4 text-slate-400 text-sm">
+        <a href="#" class="hover:text-white">Twitter</a>
+        <a href="#" class="hover:text-white">LinkedIn</a>
+      </div>
+    </div>
+
+    <textarea id="src-team-card" class="hidden"><div class="max-w-xs bg-[#111827] border border-white/10 rounded-3xl p-6 text-center">
+      <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200" class="w-20 h-20 rounded-full mx-auto object-cover border-2 border-white/10">
+      <h4 class="text-lg font-black text-white mt-4">Sarah Kim</h4>
+      <p class="text-slate-400 text-sm">Product Designer</p>
+      <div class="flex justify-center gap-3 mt-4 text-slate-400 text-sm">
+        <a href="#" class="hover:text-white">Twitter</a>
+        <a href="#" class="hover:text-white">LinkedIn</a>
+      </div>
+    </div></textarea>
+
+    <button onclick="navigator.clipboard.writeText(document.getElementById('src-team-card').value);alert('Team Card Copied!')" class="mt-4 px-5 py-3 rounded-xl bg-gradient-to-r from-emerald-500 to-blue-500 text-white text-sm font-bold">
+      📋 Copy Code
+    </button>
+  </div>
+
+  <!-- ================= CHAT BUBBLE ================= -->
+  <div>
+    <h3 class="text-xl font-bold text-white mb-4">Chat Bubble</h3>
+
+    <div data-aos="fade-up" class="max-w-sm bg-[#0F172A] border border-white/10 rounded-3xl p-5 space-y-3">
+      <div class="flex justify-start">
+        <div class="bg-white/10 text-white text-sm rounded-2xl rounded-bl-sm px-4 py-2 max-w-[75%]">
+          Hey! Is the new update live yet?
+        </div>
+      </div>
+      <div class="flex justify-end">
+        <div class="bg-emerald-500 text-black text-sm rounded-2xl rounded-br-sm px-4 py-2 max-w-[75%] font-medium">
+          Yep, just shipped it 🚀
+        </div>
+      </div>
+    </div>
+
+    <textarea id="src-chat-bubble" class="hidden"><div class="max-w-sm bg-[#0F172A] border border-white/10 rounded-3xl p-5 space-y-3">
+      <div class="flex justify-start">
+        <div class="bg-white/10 text-white text-sm rounded-2xl rounded-bl-sm px-4 py-2 max-w-[75%]">
+          Hey! Is the new update live yet?
+        </div>
+      </div>
+      <div class="flex justify-end">
+        <div class="bg-emerald-500 text-black text-sm rounded-2xl rounded-br-sm px-4 py-2 max-w-[75%] font-medium">
+          Yep, just shipped it 🚀
+        </div>
+      </div>
+    </div></textarea>
+
+    <button onclick="navigator.clipboard.writeText(document.getElementById('src-chat-bubble').value);alert('Chat Bubble Copied!')" class="mt-4 px-5 py-3 rounded-xl bg-gradient-to-r from-cyan-500 to-blue-500 text-white text-sm font-bold">
+      📋 Copy Code
+    </button>
+  </div>
+
+  <!-- ================= VIDEO CARD ================= -->
+  <div>
+    <h3 class="text-xl font-bold text-white mb-4">Video Card</h3>
+
+    <div data-aos="fade-up" class="max-w-sm bg-[#131B2E] border border-white/10 rounded-3xl overflow-hidden">
+      <div class="relative h-44">
+        <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800" class="w-full h-full object-cover">
+        <div class="absolute inset-0 bg-black/30 flex items-center justify-center">
+          <div class="w-14 h-14 rounded-full bg-white/90 flex items-center justify-center text-black text-xl">▶</div>
+        </div>
+        <span class="absolute bottom-2 right-2 bg-black/70 text-white text-xs px-2 py-1 rounded">12:45</span>
+      </div>
+      <div class="p-4">
+        <h4 class="text-white font-bold text-sm">Building a Design System from Scratch</h4>
+        <p class="text-slate-400 text-xs mt-1">42K views • 2 days ago</p>
+      </div>
+    </div>
+
+    <textarea id="src-video-card" class="hidden"><div class="max-w-sm bg-[#131B2E] border border-white/10 rounded-3xl overflow-hidden">
+      <div class="relative h-44">
+        <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800" class="w-full h-full object-cover">
+        <div class="absolute inset-0 bg-black/30 flex items-center justify-center">
+          <div class="w-14 h-14 rounded-full bg-white/90 flex items-center justify-center text-black text-xl">▶</div>
+        </div>
+        <span class="absolute bottom-2 right-2 bg-black/70 text-white text-xs px-2 py-1 rounded">12:45</span>
+      </div>
+      <div class="p-4">
+        <h4 class="text-white font-bold text-sm">Building a Design System from Scratch</h4>
+        <p class="text-slate-400 text-xs mt-1">42K views • 2 days ago</p>
+      </div>
+    </div></textarea>
+
+    <button onclick="navigator.clipboard.writeText(document.getElementById('src-video-card').value);alert('Video Card Copied!')" class="mt-4 px-5 py-3 rounded-xl bg-gradient-to-r from-orange-500 to-amber-400 text-white text-sm font-bold">
+      📋 Copy Code
+    </button>
+  </div>
+
+  <!-- ================= STATS GRID ================= -->
+  <div>
+    <h3 class="text-xl font-bold text-white mb-4">Stats Grid</h3>
+
+    <div data-aos="fade-up" class="max-w-md bg-[#101726] border border-white/10 rounded-3xl p-6 grid grid-cols-3 gap-4 text-center">
+      <div>
+        <h2 class="text-2xl font-black text-white">2.4K</h2>
+        <p class="text-slate-500 text-xs mt-1">Users</p>
+      </div>
+      <div>
+        <h2 class="text-2xl font-black text-white">98%</h2>
+        <p class="text-slate-500 text-xs mt-1">Uptime</p>
+      </div>
+      <div>
+        <h2 class="text-2xl font-black text-white">4.8</h2>
+        <p class="text-slate-500 text-xs mt-1">Rating</p>
+      </div>
+    </div>
+
+    <textarea id="src-stats-grid" class="hidden"><div class="max-w-md bg-[#101726] border border-white/10 rounded-3xl p-6 grid grid-cols-3 gap-4 text-center">
+      <div>
+        <h2 class="text-2xl font-black text-white">2.4K</h2>
+        <p class="text-slate-500 text-xs mt-1">Users</p>
+      </div>
+      <div>
+        <h2 class="text-2xl font-black text-white">98%</h2>
+        <p class="text-slate-500 text-xs mt-1">Uptime</p>
+      </div>
+      <div>
+        <h2 class="text-2xl font-black text-white">4.8</h2>
+        <p class="text-slate-500 text-xs mt-1">Rating</p>
+      </div>
+    </div></textarea>
+
+    <button onclick="navigator.clipboard.writeText(document.getElementById('src-stats-grid').value);alert('Stats Grid Copied!')" class="mt-4 px-5 py-3 rounded-xl bg-gradient-to-r from-emerald-500 to-cyan-500 text-white text-sm font-bold">
+      📋 Copy Code
+    </button>
+  </div>
+
+  <!-- ================= TIMELINE CARD ================= -->
+  <div>
+    <h3 class="text-xl font-bold text-white mb-4">Timeline Card</h3>
+
+    <div data-aos="fade-up" class="max-w-sm bg-[#131B2E] border border-white/10 rounded-3xl p-6 space-y-5">
+      <div class="flex gap-3">
+        <div class="w-2 h-2 rounded-full bg-emerald-400 mt-2 flex-shrink-0"></div>
+        <div>
+          <p class="text-white text-sm font-bold">Order Placed</p>
+          <p class="text-slate-500 text-xs">Aug 14, 9:30 AM</p>
+        </div>
+      </div>
+      <div class="flex gap-3">
+        <div class="w-2 h-2 rounded-full bg-emerald-400 mt-2 flex-shrink-0"></div>
+        <div>
+          <p class="text-white text-sm font-bold">Shipped</p>
+          <p class="text-slate-500 text-xs">Aug 15, 2:00 PM</p>
+        </div>
+      </div>
+      <div class="flex gap-3">
+        <div class="w-2 h-2 rounded-full bg-white/20 mt-2 flex-shrink-0"></div>
+        <div>
+          <p class="text-slate-400 text-sm font-bold">Out for Delivery</p>
+          <p class="text-slate-600 text-xs">Pending</p>
+        </div>
+      </div>
+    </div>
+
+    <textarea id="src-timeline-card" class="hidden"><div class="max-w-sm bg-[#131B2E] border border-white/10 rounded-3xl p-6 space-y-5">
+      <div class="flex gap-3">
+        <div class="w-2 h-2 rounded-full bg-emerald-400 mt-2 flex-shrink-0"></div>
+        <div>
+          <p class="text-white text-sm font-bold">Order Placed</p>
+          <p class="text-slate-500 text-xs">Aug 14, 9:30 AM</p>
+        </div>
+      </div>
+      <div class="flex gap-3">
+        <div class="w-2 h-2 rounded-full bg-emerald-400 mt-2 flex-shrink-0"></div>
+        <div>
+          <p class="text-white text-sm font-bold">Shipped</p>
+          <p class="text-slate-500 text-xs">Aug 15, 2:00 PM</p>
+        </div>
+      </div>
+      <div class="flex gap-3">
+        <div class="w-2 h-2 rounded-full bg-white/20 mt-2 flex-shrink-0"></div>
+        <div>
+          <p class="text-slate-400 text-sm font-bold">Out for Delivery</p>
+          <p class="text-slate-600 text-xs">Pending</p>
+        </div>
+      </div>
+    </div></textarea>
+
+    <button onclick="navigator.clipboard.writeText(document.getElementById('src-timeline-card').value);alert('Timeline Card Copied!')" class="mt-4 px-5 py-3 rounded-xl bg-gradient-to-r from-emerald-500 to-green-500 text-white text-sm font-bold">
+      📋 Copy Code
+    </button>
+  </div>
+
+  <!-- ================= CONTACT FORM ================= -->
+  <div>
+    <h3 class="text-xl font-bold text-white mb-4">Contact Form</h3>
+
+    <div data-aos="fade-up" class="max-w-md bg-[#111827] border border-white/10 rounded-3xl p-7">
+      <h4 class="text-2xl font-black text-white">Get in Touch</h4>
+      <p class="text-slate-400 text-sm mt-1">We'll get back to you within 24 hours.</p>
+
+      <div class="space-y-3 mt-5">
+        <input type="text" placeholder="Your name" class="w-full bg-[#0B0F19] border border-white/10 rounded-xl px-4 py-3 text-white outline-none focus:border-emerald-400">
+        <textarea placeholder="Your message" rows="3" class="w-full bg-[#0B0F19] border border-white/10 rounded-xl px-4 py-3 text-white outline-none focus:border-emerald-400"></textarea>
+        <button class="w-full py-3 rounded-xl bg-gradient-to-r from-emerald-400 to-blue-500 text-black font-black">
+          Send Message
+        </button>
+      </div>
+    </div>
+
+    <textarea id="src-contact-form" class="hidden"><div class="max-w-md bg-[#111827] border border-white/10 rounded-3xl p-7">
+      <h4 class="text-2xl font-black text-white">Get in Touch</h4>
+      <p class="text-slate-400 text-sm mt-1">We'll get back to you within 24 hours.</p>
+
+      <div class="space-y-3 mt-5">
+        <input type="text" placeholder="Your name" class="w-full bg-[#0B0F19] border border-white/10 rounded-xl px-4 py-3 text-white outline-none focus:border-emerald-400">
+        <textarea placeholder="Your message" rows="3" class="w-full bg-[#0B0F19] border border-white/10 rounded-xl px-4 py-3 text-white outline-none focus:border-emerald-400"></textarea>
+      </div>
+    </div></textarea>
+
+    <button onclick="navigator.clipboard.writeText(document.getElementById('src-contact-form').value);alert('Contact Form Copied!')" class="mt-4 px-5 py-3 rounded-xl bg-gradient-to-r from-emerald-500 to-blue-500 text-white text-sm font-bold">
+      📋 Copy Code
+    </button>
+  </div>
+<div class="ad-card bg-white/5 border border-white/10 rounded-xl p-4">
+  <span class="text-xs text-gray-500">Sponsored</span>
+  <!-- Your ad content here -->
+  <script async="async" data-cfasync="false" src="https://pl30930495.effectivecpmnetwork.com/f0fce54c1bebadc4d198b1c7ec83f31a/invoke.js"></script>
+<div id="container-f0fce54c1bebadc4d198b1c7ec83f31a"></div>
+
+</div>
+</section>
+    <!-- ================= FOOTER ================= -->
+<footer class="border-t border-white/10 bg-[#080C16] mt-20">
+  <div class="max-w-6xl mx-auto px-4 py-14">
+
+    <div class="grid md:grid-cols-4 gap-10">
+
+      <!-- Brand -->
+      <div class="md:col-span-2">
+        <h2 class="text-3xl font-black bg-gradient-to-r from-emerald-400 to-blue-500 bg-clip-text text-transparent">
+          BlazeUI
+        </h2>
+
+        <p class="text-slate-400 mt-4 max-w-md">
+          Premium HTML, CSS & Tailwind components built for developers.
+          Copy. Build. Ship.
+        </p>
+
+        <div class="flex gap-3 mt-6">
+
+          <!-- GitHub -->
+          <a href="https://github.com/Randyblazedev" target="_blank"
+             class="w-11 h-11 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center hover:bg-white/10">
+            <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M12 .5C5.65.5.5 5.65.5 12A11.5 11.5 0 0 0 8.36 22.95c.6.1.82-.26.82-.58v-2.03c-3.34.73-4.04-1.42-4.04-1.42-.55-1.38-1.34-1.75-1.34-1.75-1.1-.76.08-.75.08-.75 1.21.09 1.85 1.25 1.85 1.25 1.08 1.84 2.83 1.31 3.52 1 .1-.78.42-1.31.76-1.61-2.66-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.13-.3-.54-1.52.12-3.16 0 0 1.01-.32 3.3 1.23A11.4 11.4 0 0 1 12 6.32c1.02 0 2.05.14 3.01.42 2.29-1.55 3.3-1.23 3.3-1.23.66 1.64.25 2.86.12 3.16.77.84 1.24 1.91 1.24 3.22 0 4.61-2.81 5.62-5.49 5.92.43.37.82 1.1.82 2.23v3.3c0 .32.22.69.83.57A11.5 11.5 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z"/>
+            </svg>
+          </a>
+
+          <!-- LinkedIn -->
+          <a href="https://www.linkedin.com/in/Randyblazedev" target="_blank"
+             class="w-11 h-11 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center hover:bg-blue-500/20">
+            <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M4.98 3.5C4.98 4.6 4.1 5.5 3 5.5S1 4.6 1 3.5 1.9 1.5 3 1.5s1.98.9 1.98 2ZM1.5 8h3V23h-3V8Zm7 0h2.88v2.05h.04c.4-.76 1.38-2.05 3.58-2.05 3.83 0 4.5 2.52 4.5 5.8V23h-3v-7.33c0-1.75-.03-4-2.44-4-2.45 0-2.82 1.91-2.82 3.87V23h-3V8Z"/>
+            </svg>
+          </a>
+
+          <!-- Facebook -->
+          <a href="https://facebook.com/RandyBlze" target="_blank"
+             class="w-11 h-11 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center hover:bg-blue-600/20">
+            <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M22 12a10 10 0 1 0-11.56 9.88v-6.99H7.9V12h2.54V9.8c0-2.5 1.49-3.89 3.78-3.89 1.09 0 2.23.2 2.23.2v2.46H15.2c-1.24 0-1.63.77-1.63 1.56V12h2.78l-.44 2.89h-2.34v6.99A10 10 0 0 0 22 12"/>
+            </svg>
+          </a>
+<a href="https://instagram.com/randyblazedev"
+   target="_blank"
+   rel="noopener noreferrer"
+   class="w-11 h-11 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center hover:bg-pink-500/20 transition">
+
+  <!-- Instagram SVG -->
+  <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
+    <path d="M7.75 2C4.57 2 2 4.57 2 7.75v8.5C2 19.43 4.57 22 7.75 22h8.5C19.43 22 22 19.43 22 16.25v-8.5C22 4.57 19.43 2 16.25 2h-8.5Zm0 2h8.5A3.75 3.75 0 0 1 20 7.75v8.5A3.75 3.75 0 0 1 16.25 20h-8.5A3.75 3.75 0 0 1 4 16.25v-8.5A3.75 3.75 0 0 1 7.75 4Zm8.75 1a1.25 1.25 0 1 0 0 2.5A1.25 1.25 0 0 0 16.5 5ZM12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10Zm0 2a3 3 0 1 1 0 6 3 3 0 0 1 0-6Z"/>
+  </svg>
+
+</a>
+        </div>
+      </div>
+
+      <!-- Links -->
+      <div>
+        <h3 class="text-white font-bold mb-4">BlazeUI</h3>
+        <ul class="space-y-3 text-sm text-slate-400">
+          <li><a href="#" class="hover:text-white">Templates</a></li>
+          <li><a href="#" class="hover:text-white">Components</a></li>
+          <li><a href="#" class="hover:text-white">Pricing</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 class="text-white font-bold mb-4">Support</h3>
+        <ul class="space-y-3 text-sm text-slate-400">
+          <li><a href="#" class="hover:text-white">Docs</a></li>
+          <li><a href="#" class="hover:text-white">License</a></li>
+          <li><a href="https://wa.me/237676162113" target="_blank" class="hover:text-emerald-400 transition">
+  WhatsApp
+          </a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="mt-10 pt-6 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-3">
+      <p class="text-sm text-slate-500">
+        © 2026 BlazeUI • Crafted by RandyBlazeDev
+      </p>
+    </div>
+
+  </div>
+</footer>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 700,
+    once: true,
+    offset: 80
+  });
+</script>
+</body>
+</html>
